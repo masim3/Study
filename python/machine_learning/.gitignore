@@ -1,0 +1,29 @@
+# Python
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Virtual envs
+**/.venv/
+**/venv/
+**/env/
+
+# Jupyter
+**/.ipynb_checkpoints/
+
+# VS Code (nur relevante Dateien tracken)
+**/.vscode/*
+!**/.vscode/settings.json
+!**/.vscode/tasks.json
+!**/.vscode/launch.json
+
+# Build/Dist
+**/build/
+**/dist/
+**/*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
